@@ -34,8 +34,8 @@ public class PlayerScript : MonoBehaviour {
 	}
 
 	void Move() {
-		this.transform.Translate(new Vector3(dir.x, dir.y, 0) * speed);
-
+		//this.transform.Translate(new Vector3(dir.x, dir.y, 0) * speed);
+		this.GetComponent<Rigidbody2D>().MovePosition(new Vector2(this.transform.position.x, this.transform.position.y) + dir * speed);
 	}
 
 	void Attack() {

@@ -23,6 +23,7 @@ public class dummyEnemyScript : MonoBehaviour {
 					Die();
 				}
 			}
+			//this.GetComponent<Rigidbody2D>().AddForceAtPosition();
 		}
 	}
 
