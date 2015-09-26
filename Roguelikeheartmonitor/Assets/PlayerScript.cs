@@ -20,10 +20,13 @@ public class PlayerScript : MonoBehaviour {
 	public Sprite standingRight;
 	public Sprite[] walkingRight;
 	public float animSpeed = 0.5f;
+	Color startingColor;
 
 
 	void Start () {
 		spriteRend = this.GetComponent<SpriteRenderer>();
+		startingColor = this.GetComponent<SpriteRenderer>().color;
+
 	}
 	
 	// Update is called once per frame
@@ -103,5 +106,28 @@ public class PlayerScript : MonoBehaviour {
 				this.spriteRend.sprite = walkingRight[(int) Mathf.Round(Time.frameCount * animSpeed) % walkingRight.Length];
 			}
 		}
+	}
+
+	void OnCollisionEnter2D(Collision2D coll) {
+		if (coll.gameObject.tag == "enemyHitBox") {
+			var boxScript = coll.gameObject.GetComponent<hitBoxScript>();
+			if (boxScript) {
+				this.currentHealth -= boxScript.damage;
+				this.GetComponent<SpriteRenderer>().color = new Color(0.7f, 0.2f, 0.2f);
+				Invoke("MoveBack", 0.2f);
+				if (this.currentHealth <= 0) {
+					Die();
+				}
+			}
+			this.GetComponent<Rigidbody2D>().MovePosition(new Vector2(this.transform.position.x, this.transform.position.y) + new Vector2(this.transform.position.x - FindObjectOfType<PlayerScript>().transform.position.x, this.transform.position.y - FindObjectOfType<PlayerScript>().transform.position.y).normalized * 0.1f);
+		}
+	}
+
+	void MoveBack() {
+		this.GetComponent<SpriteRenderer>().color = startingColor;
+	}
+
+	void Die() {
+		Debug.Log ("you are dead");
 	}
 }
