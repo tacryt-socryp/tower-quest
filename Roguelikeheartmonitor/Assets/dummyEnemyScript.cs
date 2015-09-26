@@ -4,6 +4,7 @@ using System.Collections;
 public class dummyEnemyScript : MonoBehaviour {
 
 	// Use this for initialization
+	public int health = 10;
 	void Start () {
 	
 	}
@@ -14,10 +15,18 @@ public class dummyEnemyScript : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D coll) {
-		Debug.Log("dummy 2d collision senter");
-		
 		if (coll.gameObject.tag == "hitBox") {
-			Destroy(gameObject);
+			var boxScript = coll.gameObject.GetComponent<hitBoxScript>();
+			if (boxScript) {
+				this.health -= boxScript.damage;
+				if (this.health <= 0) {
+					Die();
+				}
+			}
 		}
+	}
+
+	void Die() {
+		Destroy(gameObject);
 	}
 }
