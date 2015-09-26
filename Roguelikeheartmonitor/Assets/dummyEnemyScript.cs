@@ -13,9 +13,9 @@ public class dummyEnemyScript : MonoBehaviour {
 	
 	}
 
-	void OnCollisionStay2D(Collision2D coll) {
-		Debug.Log("dummy 2d collision stay");
-
+	void OnCollisionEnter2D(Collision2D coll) {
+		Debug.Log("dummy 2d collision senter");
+		
 		if (coll.gameObject.tag == "hitBox") {
 			Destroy(gameObject);
 		}
