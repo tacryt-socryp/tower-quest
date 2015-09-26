@@ -44,7 +44,7 @@ public class PlayerScript : MonoBehaviour {
 	void Attack() {
 		if (attackNextFrame) {
 			//instantiate damage particle and perform anim
-			Instantiate(basicHit, transform.position + new Vector3(leftRight, 0, 0) * basicHitDist, Quaternion.identity);
+			Instantiate(basicHit, transform.position + new Vector3(lastDir.x, lastDir.y, 0) * basicHitDist, Quaternion.identity);
 			attackNextFrame = false;
 		}
 	}

@@ -1,17 +1,15 @@
 fileFormatVersion: 2
-guid: 837bc2c07ed18a049b6cb6be90772b0f
-timeCreated: 1443305376
+guid: c153398511361404ca960b4d05563875
+timeCreated: 1443299735
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Monster 1_0
-    21300002: Monster 1_1
-    21300004: Monster 1_2
-    21300006: Monster 1_3
-    21300008: Monster 1_4
-    21300010: Monster 1_5
-    21300012: Monster 1_6
-    21300014: Monster 1_7
+    21300000: Tower Quest Controller Assets_0
+    21300002: Tower Quest Controller Assets_1
+    21300004: Tower Quest Controller Assets_2
+    21300006: Tower Quest Controller Assets_3
+    21300008: Tower Quest Controller Assets_4
+    21300010: Tower Quest Controller Assets_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -58,83 +56,63 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Monster 1_0
+    - name: Tower Quest Controller Assets_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 212
-        width: 53
-        height: 64
+        y: 92
+        width: 114
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Monster 1_1
+    - name: Tower Quest Controller Assets_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 212
-        width: 53
-        height: 64
+        x: 90
+        y: 154
+        width: 85
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Monster 1_2
+    - name: Tower Quest Controller Assets_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 142
-        width: 53
-        height: 64
+        x: 154
+        y: 92
+        width: 115
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Monster 1_3
+    - name: Tower Quest Controller Assets_3
       rect:
         serializedVersion: 2
-        x: 67
-        y: 142
-        width: 53
-        height: 64
+        x: 741
+        y: 121
+        width: 117
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Monster 1_4
+    - name: Tower Quest Controller Assets_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 72
-        width: 53
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Monster 1_5
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 72
-        width: 53
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Monster 1_6
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 90
         y: 0
-        width: 53
-        height: 64
+        width: 85
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Monster 1_7
+    - name: Tower Quest Controller Assets_5
       rect:
         serializedVersion: 2
-        x: 67
-        y: 0
-        width: 53
-        height: 64
+        x: 857
+        y: 27
+        width: 117
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
