@@ -25,6 +25,8 @@ public class basicEnemyScript : MonoBehaviour {
 				if (this.health <= 0) {
 					Die();
 				}
+				this.GetComponent<SpriteRenderer>().color = new Color(0.7f, 0.2f, 0.2f);
+				Invoke("MoveBack", 0.2f);
 			}
 			this.GetComponent<Rigidbody2D>().MovePosition(new Vector2(this.transform.position.x, this.transform.position.y) + new Vector2(this.transform.position.x - FindObjectOfType<PlayerScript>().transform.position.x, this.transform.position.y - FindObjectOfType<PlayerScript>().transform.position.y).normalized * 0.1f);
 		}
