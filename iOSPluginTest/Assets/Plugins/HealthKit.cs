@@ -16,7 +16,16 @@ public class HealthKit {
 	private static extern int _age();
 	
 	[DllImport ("__Internal")]
-	private static extern double _weight();
+	private static extern int _weight();
+	
+	[DllImport ("__Internal")]
+	private static extern int _steps();
+	
+	[DllImport ("__Internal")]
+	private static extern int _calories();
+	
+	[DllImport ("__Internal")]
+	private static extern int _sleep();
 	
 	/* Public interface for use inside C# / JS code */
 	
@@ -47,15 +56,43 @@ public class HealthKit {
 			return _age();
 		}
 		
-		return 0;
+		return -1;
 	}
 	
-	public static double weight()
+	public static int weight()
 	{
 		if (Application.platform != RuntimePlatform.OSXEditor) {
 			return _weight();
 		}
 		
-		return 0;
+		return -1;
+	}
+	
+	public static int steps()
+	{
+		if (Application.platform != RuntimePlatform.OSXEditor) {
+			return _steps();
+		}
+		
+		return -1;
+	}
+	
+	public static int calories()
+	{
+		if (Application.platform != RuntimePlatform.OSXEditor) {
+			return _calories();
+		}
+		
+		return -1;
+	}
+
+	// minutes in the past 1 day
+	public static int sleep()
+	{
+		if (Application.platform != RuntimePlatform.OSXEditor) {
+			return _sleep();
+		}
+		
+		return -1;
 	}
 }
