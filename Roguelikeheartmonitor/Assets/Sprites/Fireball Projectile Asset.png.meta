@@ -3,7 +3,10 @@ guid: e8fdce213ca3d4a96b0871969112803c
 timeCreated: 1443315023
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Fireball Projectile Asset_0
+    21300002: Fireball Projectile Asset_1
+    21300004: Fireball Projectile Asset_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
