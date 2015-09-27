@@ -7,6 +7,7 @@
 [Ll]ibrary/
 sysinfo.txt
 *.stackdump
+iOSPluginTest/TowerQuest/Libraries/libiPhone-lib.a
  
 # ===================================== #
 # Visual Studio / MonoDevelop generated #

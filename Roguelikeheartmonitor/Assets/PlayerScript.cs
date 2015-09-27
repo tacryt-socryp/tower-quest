@@ -128,6 +128,10 @@ public class PlayerScript : MonoBehaviour {
 	}
 
 	void Die() {
-		Debug.Log ("you are dead");
+		Application.LoadLevel("Gameover");
+	}
+
+	public string GetHealthMessage() {
+		return ("Health: " + currentHealth.ToString() + "/" + maxHealth.ToString());
 	}
 }
