@@ -4,9 +4,9 @@ using System.Collections;
 public class PlayerScript : MonoBehaviour {
 
 	// Use this for initialization
-	public float speed = 1.0f;
-	public int damage = 1;
-	public int maxHealth = 10;
+	public float speed = (int) allStats.speed;
+	public int damage = (int) allStats.damage;
+	public int maxHealth = (int) allStats.health;
 	public int currentHealth = 9;
 	public Vector2 dir = Vector2.zero;
 	public Vector2 lastDir = Vector2.right;
