@@ -19,6 +19,10 @@ public class PlayerScript : MonoBehaviour {
 	public Sprite[] walkingLeft;
 	public Sprite standingRight;
 	public Sprite[] walkingRight;
+	public Sprite[] walkingUp;
+	public Sprite standingUp;
+	public Sprite[] walkingDown;
+	public Sprite standingDown;
 	public float animSpeed = 0.5f;
 	Color startingColor;
 
@@ -92,17 +96,29 @@ public class PlayerScript : MonoBehaviour {
 	}
 
 	void updateSprite() {
-		if(leftRight == -1) {
+		if(lastDir.normalized == Vector2.left) {
 			if (dir == Vector2.zero) {
 				this.spriteRend.sprite = standingLeft;
 			} else {
 				this.spriteRend.sprite = walkingLeft[(int) Mathf.Round(Time.frameCount * animSpeed) % walkingLeft.Length];
 			}
-		} else {
+		} else if (lastDir.normalized == Vector2.right){
 			if (dir == Vector2.zero) {
 				this.spriteRend.sprite = standingRight;
 			} else {
 				this.spriteRend.sprite = walkingRight[(int) Mathf.Round(Time.frameCount * animSpeed) % walkingRight.Length];
+			}
+		} else if (lastDir.normalized == Vector2.up){
+			if (dir == Vector2.zero) {
+				this.spriteRend.sprite = standingUp;
+			} else {
+				this.spriteRend.sprite = walkingUp[(int) Mathf.Round(Time.frameCount * animSpeed) % walkingUp.Length];
+			}
+		} else if (lastDir.normalized == Vector2.down){
+			if (dir == Vector2.zero) {
+				this.spriteRend.sprite = standingDown;
+			} else {
+				this.spriteRend.sprite = walkingDown[(int) Mathf.Round(Time.frameCount * animSpeed) % walkingDown.Length];
 			}
 		}
 	}

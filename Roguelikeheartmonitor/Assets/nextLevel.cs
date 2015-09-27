@@ -25,4 +25,8 @@ public class nextLevel : MonoBehaviour {
 			Application.LoadLevel(nextScene);
 		}
 	}
+
+	public void GoToLevel() {
+		Application.LoadLevel(nextScene);
+	}
 }
