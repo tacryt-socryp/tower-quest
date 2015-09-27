@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 1bfbc015ef66bc2488e97230f506d2c8
+timeCreated: 1443332973
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tower Quest Character Sprites_0
+    21300002: Tower Quest Character Sprites_1
+    21300004: Tower Quest Character Sprites_2
+    21300006: Tower Quest Character Sprites_3
+    21300008: Tower Quest Character Sprites_4
+    21300010: Tower Quest Character Sprites_5
+    21300012: Tower Quest Character Sprites_6
+    21300014: Tower Quest Character Sprites_7
+    21300016: Tower Quest Character Sprites_8
+    21300018: Tower Quest Character Sprites_9
+    21300020: Tower Quest Character Sprites_10
+    21300022: Tower Quest Character Sprites_11
+    21300024: Tower Quest Character Sprites_12
+    21300026: Tower Quest Character Sprites_13
+    21300028: Tower Quest Character Sprites_14
+    21300030: Tower Quest Character Sprites_15
+    21300032: Tower Quest Character Sprites_16
+    21300034: Tower Quest Character Sprites_17
+    21300036: Tower Quest Character Sprites_18
+    21300038: Tower Quest Character Sprites_19
+    21300040: Tower Quest Character Sprites_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Tower Quest Character Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 46
+        height: 32
+      alignment: 9
+      pivot: {x: .600000024, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 39
+        width: 46
+        height: 32
+      alignment: 9
+      pivot: {x: .400000006, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 39
+        width: 46
+        height: 32
+      alignment: 9
+      pivot: {x: .600000024, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 39
+        width: 46
+        height: 32
+      alignment: 9
+      pivot: {x: .400000006, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 39
+        width: 46
+        height: 32
+      alignment: 9
+      pivot: {x: .600000024, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 39
+        width: 46
+        height: 32
+      alignment: 9
+      pivot: {x: .400000006, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tower Quest Character Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
