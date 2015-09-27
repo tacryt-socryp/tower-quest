@@ -26,7 +26,6 @@ public class PlayerScript : MonoBehaviour {
 	void Start () {
 		spriteRend = this.GetComponent<SpriteRenderer>();
 		startingColor = this.GetComponent<SpriteRenderer>().color;
-
 	}
 	
 	// Update is called once per frame
