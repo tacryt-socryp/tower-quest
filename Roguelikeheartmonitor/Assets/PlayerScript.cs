@@ -9,7 +9,7 @@ public class PlayerScript : MonoBehaviour {
 	public int maxHealth = 10;
 	public int currentHealth = 9;
 	public Vector2 dir = Vector2.zero;
-	Vector2 lastDir = Vector2.right;
+	public Vector2 lastDir = Vector2.right;
 	public int leftRight = 1;
 	public GameObject basicHit;
 	public float basicHitDist; //distance relative to a player facing right that the basic attack hitbox should center
